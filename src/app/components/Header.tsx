@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router';
 import { Menu, X, ShoppingCart } from 'lucide-react';
 import { Button } from './Button';
-import logo from 'figma:asset/85ed609e458eb05b9ebdb6835c1cf98f40f3ca6d.png';
+import logo from '@/assets/85ed609e458eb05b9ebdb6835c1cf98f40f3ca6d.png';
 
 export const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

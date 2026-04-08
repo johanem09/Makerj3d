@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import { Instagram, Facebook, Mail, Phone, MapPin } from 'lucide-react';
-import logo from 'figma:asset/85ed609e458eb05b9ebdb6835c1cf98f40f3ca6d.png';
+import logo from '@/assets/85ed609e458eb05b9ebdb6835c1cf98f40f3ca6d.png';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
